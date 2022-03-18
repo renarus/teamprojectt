@@ -319,7 +319,10 @@ ul li {
     align-items: center;
     
 }
-
+.authortext img{
+    background-color: #1e4681!important;
+    border-radius: 3px;
+}
 .kurs .author h4 {
     font-family: Roboto Slab;
     font-size: 30px;

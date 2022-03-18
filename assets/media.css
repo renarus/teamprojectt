@@ -306,6 +306,7 @@
 
 /* Mobile */
 @media only screen  and (max-width:991px) {
+ 
     .photo1 {
         margin-top: 26px;
     }
@@ -313,7 +314,7 @@
         width: 80px;
     }
     .global {
-        width: 300px;
+        width: 280px;
         display: flex;
         margin-top: 30px;
     }
@@ -519,7 +520,7 @@
         flex-direction: column;
         height: 550px;
         align-items: center;
-        margin-left: -10px;
+        margin-left: -20px;
     }
 
     .section-3 .boxes .box-1 {
@@ -573,7 +574,7 @@
     
     .kurs {
         width: 100%;
-        margin-top: 20px;
+        margin-top: -150px;
     }
     .kurs .boxes {
         margin-left: -13px !important;
@@ -582,8 +583,8 @@
         margin-bottom: 20px;
     }
     .kurs h1 {
-        font-size: 20px !important;
-        line-height: 23px
+        font-size: 27px !important;
+        line-height: 32px;
     }
     .kurs .box p {
         width: 100%;
@@ -606,6 +607,7 @@
     .kurs .authortext img {
         width: 15px;
         height: 15px;
+        margin-top:6px;
     }
     .fotter12 {
         padding-top: 50px;
@@ -615,6 +617,7 @@
         margin-bottom: 10px;
         font-size: 30px;
         line-height: 26px;
+        font-family: 'Roboto Slab';
     }
     .stoimost {
         font-size: 18px;
@@ -623,10 +626,12 @@
     .rubl {
         font-size: 30px;
         line-height: 41px;
+        font-family: 'Roboto';
     }
     .footer1dflexcontainer {
         width: 100%;
         margin-top: 30px;
+        font-family: 'Roboto';
     }
     #footer1dflex {
         margin-bottom: 5px;
@@ -638,12 +643,14 @@
         line-height: 20px;
         font-size: 15px;
         font-weight: 600;
+        font-family: 'Roboto';
     }
     .fotter1dflextext {
         font-size: 13px;
         line-height: 101.38%;
         color: #000000;
         margin-top: 10px;
+        font-family: 'Roboto';
     }
     .footer22 {
         flex-direction: column;
@@ -697,4 +704,11 @@
         width: 220px !important;
         margin-left: 60% !important;
     }
+    /* .section-3 .boxes {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 550px;
+        align-items: center;
+    } */
 }
